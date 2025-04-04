@@ -6,7 +6,8 @@
     "dev": "pm2 start app.js --watch",
     "start": "pm2 start app.js",
     "stop": "pm2 stop app.js",
-    "restart": "pm2 restart app.js"
+    "restart": "pm2 restart app.js",
+    "remove": "pm2 delete all"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
